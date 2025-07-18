@@ -1,0 +1,40 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Brittany+Signature&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ortica+Linear&display=swap");
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-cormorant-garamond: "Cormorant Garamond", serif;
+  --font-brittany-signature: "Brittany Signature", cursive;
+  --font-ortica-linear: "Ortica Linear", sans-serif;
+
+  /* color variables */
+  --color-primary: #a47149;
+  --color-secondary: #4b5c3b;
+  --color-black: #232325;
+  --color-stroke: #dddddd;
+  --color-hover: #a47149;
+  --color-red: #FF0000;
+  --color-fade: #C0A2A2;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+@font-face {
+  font-family: 'Safira March Personal Use';
+  src: url('./fonts/SafiraMarchPersonalUse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Then add to your CSS variables if you want: */
+:root {
+  --font-safira-march: 'Safira March Personal Use', cursive;
+}
