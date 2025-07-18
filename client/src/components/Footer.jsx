@@ -3,6 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import blacklogo from "../assets/blacklogo.png";
+import footerbg from "../assets/footerbg.png";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
       <div className="absolute h-[1px] bg-[#333333] w-[92%] mx-auto left-0 right-0" />
       {/* Footer background image: centered on mobile/tablet, right on desktop */}
       <img
-        src="/src/assets/footerbg.png"
+        src={footerbg}
         alt="Footer background"
         className="absolute bottom-0 left-1/2 right-auto translate-x-[-50%] lg:left-auto lg:right-8 lg:translate-x-0 w-5/6 h-40 xs:h-50 sm:h-100 object-contain pointer-events-none select-none z-0"
         style={{ maxWidth: '600px', maxHeight: '220px' }}

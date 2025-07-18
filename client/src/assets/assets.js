@@ -23,6 +23,7 @@ import whitephakding from "./whitephakding.png";
 import whitepostcard from "./whitepostcard.png";
 import contact from "./contact.png";
 import blacklogo from "./blacklogo.png"
+import footerbg from "./footerbg.png"
 
 
 
@@ -52,4 +53,5 @@ export const assets = {
     whitepostcard,
     contact,
     blacklogo,
+    footerbg,
 }
