@@ -2,6 +2,7 @@ import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import blacklogo from "../assets/blacklogo.png";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
         {/* Left: Logo, Address, Contact */}
         <div className="flex flex-col items-center lg:items-start min-w-[160px] xs:min-w-[200px] lg:justify-center flex-1 gap-4 xs:gap-6 lg:gap-10 w-full">
           <img
-            src="/src/assets/blacklogo.png"
+            src={blacklogo}
             alt="Sasvata Logo"
             className="h-18 xs:h-16 sm:h-28"
           />
